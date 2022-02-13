@@ -1,0 +1,17 @@
+@use 'base';
+
+.container{
+    border: 1px solid red;
+    background-color: base.$primaryBackground;
+    max-width: 70%;
+    
+}
+h1{
+    font-size: 2.5em;
+    span {
+        color: base.$secondaryText;
+    }
+}
+h3{
+    font-size: 1.5em;
+}
